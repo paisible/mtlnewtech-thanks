@@ -1,0 +1,26 @@
+- Bootstrap :)
+- Boilerplate :)
+- Backbone :)
+- Underscore :)
+- jQuery :)
+- jQuery-UI :)
+- i8n :)
+- forever :)
+- index.html :)
+- index.js :)
+
+- /public :)
+	- /js :)
+	- /css :)
+	- /images :)
+- /src :)
+
+
+- npm packages
+	- express :)
+	- (MongoDB ORM)
+	- socket.io :)
+	- ejs :)
+
+- install.bat
+
