@@ -1,4 +1,4 @@
-qktemplate
+MTLNewTech-Thanks
 ==========
 
-fast template for web/node projects
+Thank you MTLNewTech participants for these 50 great times shared with you !
