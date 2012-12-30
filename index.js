@@ -4,7 +4,7 @@ var express = require('express'),
 	fs = require('fs');
 
 var app = express();
-var pub = __dirname + '/public';
+var pub = __dirname + '/public/themeforest/HTML';
 
 app.configure(function() {
 	app.use(express.errorHandler({ dump: true, stack: true }));
@@ -23,17 +23,12 @@ app.configure(function() {
 	Routing
 */
 app.get('/', function(req, res){
-	res.sendfile(__dirname + '/public/index.html');
+	res.sendfile(__dirname + '/public/themeforest/HTML/index.html');
 });
 
 
-app.post('/api/', function(req, res){
-	var data = req.body.data;
-	res.send("foo");
+app.get('/*', function(req,res){
+	res.sendfile(__dirname + '/public/themeforest/HTML/' + req.params[0]);
 });
 
-app.get('/templates', function(req,res){
-	res.sendfile(__dirname + '/public/templates/templates.json');
-});
-
-app.listen(6969);
+app.listen(6968);
