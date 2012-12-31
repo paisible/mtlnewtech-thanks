@@ -1,0 +1,12 @@
+.hero-image.hero_animate{
+	width:200px;
+	height:200px;
+	border-radius:0%;
+	border:none;
+	-webkit-box-shadow:none;
+}
+
+.hero-image{
+	left:65%;
+	top:60%;
+}
